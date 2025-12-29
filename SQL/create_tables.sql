@@ -1,0 +1,14 @@
+CREATE DATABASE car_price;
+USE car_price;
+
+CREATE TABLE cars
+(
+id INT AUTO_INCREMENT PRIMARY KEY,
+brand VARCHAR(20) NOT NULL,
+model VARCHAR(20) NOT NULL,
+year INT NOT NULL,
+mileage INT NOT NULL,
+gear_type VARCHAR(20) NOT NULL,
+full_type VARCHAR(20) NOT NULL,
+price FLOAT NOT NULL
+)
